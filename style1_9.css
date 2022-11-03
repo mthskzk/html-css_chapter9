@@ -3,11 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 header {
-  width: 100%;
   height: 50px;
   background-color: #FF9A4B;
 }
@@ -15,7 +13,6 @@ header {
 main {
   width: 960px;
   display: flex;
-  justify-content: center;
   margin: 50px auto;
 }
 
@@ -25,6 +22,10 @@ main {
   padding: 10px;
   position: relative;
   background-color: #EEEEEE
+}
+
+.box:last-child {
+  margin-right: 0;
 }
 
 .image1 {
